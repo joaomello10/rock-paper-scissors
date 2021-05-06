@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Pedra papel tesoura</title>
+</head>
+<body>
+    <header>
+        <div id="scoreboard-container">
+            <p id="player-score"><i class="fas fa-user"></i> Você : 0</p>
+            <p id="computer-score"><i class="fas fa-robot"></i> Computador : 0</p>
+        </div>
+    </header>
+    <main>
+        <div id="result-container">
+            <h1 id="result">Resultado : </h1>
+        </div>
+        <div id="match">
+            <p id="match-player"><i class="far fa-hand-rock"></i></p>
+            <p id="match-computer"><i class="far fa-hand-rock"></i></p>
+        </div>
+        <div id="player-choices-container">
+            <button class="player-choices" id="rock">Pedra</button>
+            <button class="player-choices" id="paper">Papel</button>
+            <button class="player-choices" id="scissors">Tesoura</button>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
