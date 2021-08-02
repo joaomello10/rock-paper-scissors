@@ -7,7 +7,7 @@
 <img src='https://user-images.githubusercontent.com/76830365/127750078-212999bf-738e-46b4-8090-846fa296983c.png' />
 
 ## 🚀 Technologies
-
+ 
 <ul>
     <li>Javascript </li>
     <li>html</li>
